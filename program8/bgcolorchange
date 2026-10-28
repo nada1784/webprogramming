@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body style="text-align:center;">
+<h1 style="color:green;">JAVA SCRIPT EVENT HANDLING</h1>
+<p>Click on button to change the background color</p>
+<button id="btn" style="background-color:pink;cursor:pointer;">Click here</button>
+<p id="change" style="color:orange;font-size:18px;"></p>
+<script>
+let button=document.getElementById("btn")
+const colors=["yellow","blue","red","cyan"];
+button.addEventListener("click",function(){
+const randomColor=colors[Math.floor(Math.random()* colors.length)];
+document.body.style.backgroundColor=randomColor;
+document.getElementById("change").innerHTML="color changed";
+});
+</script>
+</body>
+</html>

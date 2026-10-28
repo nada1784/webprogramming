@@ -1,0 +1,20 @@
+body{
+background-color:white;
+
+}
+.form{
+background-color:lightblue;
+width:750px;
+margin:30px auto;
+padding:20px;
+}
+h3{
+text-align:center;
+}
+label{
+display:inline-block;
+width:180px;
+}
+input[type="submit"]{
+margin-left:300px;
+}

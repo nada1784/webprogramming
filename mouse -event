@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+<body style="text-align:center">
+<h2>MOUSE HANDLING</h2>
+<img id="img-tag"src="/home/student/Downloads/images.jpeg"onmouseover="changeImg()"onmouseout="setold()"width="220px"height="230px" alt="image"/>
+<script>
+function changeImg(){
+document.getElementById("img-tag").src="/home/student/Downloads/image2";
+}
+function setold()
+{
+document.getElementById("img-tag").src="/home/student/Downloads/images.jpeg";
+}
+</script>
+</body>
+</html>
